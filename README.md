@@ -13,3 +13,23 @@ RESET API
 - Najhae Justice
 - Sterling Jones
 - Alexander Dewey
+
+## Running the Microservice
+
+Install required libraries:
+
+```bash
+pip install flask requests
+```
+
+Run the microservice:
+
+```bash
+python main.py
+```
+
+Run the test program:
+
+```bash
+python test_microservice_3.py
+```
