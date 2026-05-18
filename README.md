@@ -14,6 +14,17 @@ RESET API
 - Sterling Jones
 - Alexander Dewey
 
+## description
+This microservice automatically generates text-based reminders for pending tasks. It exposes a single REST API endpoint running on port 5001 that accepts a JSON payload detailing the task's properties. The service evaluates the task's completion status and builds a formatted reminder string if the task is still outstanding
+
+## how to request
+To programmatically request data from this microservice, send an HTTP `POST` request to the `/generate_reminder` endpoint on port 5001, providing a JSON payload containing `task_name`, `due_date`, and `completed` keys.
+
+## how to recieve
+To programmatically receive and process the data, first inspect the HTTP status code returned by the microservice to confirm a valid transaction before reading the JSON body.
+
+
+
 ## Running the Microservice
 
 Install required libraries:
