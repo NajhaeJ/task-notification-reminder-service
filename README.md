@@ -23,6 +23,9 @@ To programmatically request data from this microservice, send an HTTP `POST` req
 ## how to recieve
 To programmatically receive and process the data, first inspect the HTTP status code returned by the microservice to confirm a valid transaction before reading the JSON body.
 
+## UML diagram
+
+![UML diagram](uml.png)
 
 
 ## Running the Microservice
