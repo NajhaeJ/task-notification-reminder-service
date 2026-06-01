@@ -30,7 +30,7 @@ reminder_response = requests.post(
 )
 ```
 
-## how to recieve
+## how to receive
 To programmatically receive and process the data, first inspect the HTTP status code returned by the microservice to confirm a valid transaction before reading the JSON body.
 ```py
 # access the received status code
