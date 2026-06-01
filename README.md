@@ -7,7 +7,7 @@ This microservice generates simple reminder messages based on task data for CS36
 - Reject requests with missing task data
 
 ## Communication Pipe
-RESET API
+REST API
 
 ## Developers
 - Najhae Justice
